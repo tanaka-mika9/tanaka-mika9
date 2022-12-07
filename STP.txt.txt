@@ -1,0 +1,23 @@
+課題
+問１　ルートブリッジ：Switch3
+
+問２　Switch1ーSwitch3　パスコスト100
+　　　Switch1ーSwitch2－Switch4ーSwitch3　パスコスト219
+　　　
+　　　Switch2ーSwitch1ーSwitch3　パスコスト119
+　　　Switch2ーSwitch4ーSwitch3　パスコスト200
+
+　　　Switch4ーSwitch3　パスコスト100
+　　　Switch4ーSwitch2ーSwitch1ーSwitch3　パスコスト219
+
+　　　Switch1F0/1　指定ポート（DP）
+　　　　　　　　F0/2　ルートポート（RP）
+　　　
+　　　Switch2F0/1　ルートポート（RP）
+　　　　　　　　F0/2　ブロッキングポート（BP）
+
+　　　Switch3E0/1　指定ポート（DP）
+　　　　　　　　E0/2　指定ポート（DP）
+
+　　　Switch4E0/1　指定ポート（DP）
+　　　　　　　　E0/2　ルートポート（RP）
